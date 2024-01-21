@@ -21,7 +21,7 @@ const Lesson1 = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-[100vh] w-[1080px]">
+    <div className="flex justify-center items-center h-[80vh] mx-auto w-[1080px] border border-red-500">
       <motion.div
         className=" size-64 bg-indigo-500 rounded-lg flex flex-wrap gap-4 p-5 justify-center items-center"
         variants={parent}
@@ -29,6 +29,7 @@ const Lesson1 = () => {
         animate="visible"
         whileHover="hover"
         drag
+        dragElastic={0.7}
       >
         {/* <motion.div
         className=" size-64 bg-indigo-500 rounded-lg flex flex-wrap gap-4 p-5 justify-center items-center"
