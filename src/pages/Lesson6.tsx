@@ -1,9 +1,9 @@
 import { motion, useAnimationControls } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const Lesson6 = () => {
   const controls = useAnimationControls();
-  const [toggle, setToggle] = useState(false);
+  //   const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
     controls.start((i) => ({ x: 200, transition: { delay: i * 1 } }));
