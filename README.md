@@ -1,7 +1,7 @@
 introduction to framerMotion
 
 1. motion element
-2. variation and transition\_ stagger animation
+2. variation and transition_stagger animation
 3. gesture_hover and tap
 4. gesture_drag
 5. key frame based animation

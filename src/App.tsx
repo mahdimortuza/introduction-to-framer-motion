@@ -1,11 +1,11 @@
 import "./App.css";
-import Lesson10 from "./pages/Lesson10";
+import Lesson11 from "./pages/Lesson11";
 
 function App() {
   return (
     <div className="flex flex-col items-center justify-center  h-full">
       {/* <div className="h-[200vh] w-full bg-red-500"></div> */}
-      <Lesson10 />
+      <Lesson11 />
     </div>
   );
 }
